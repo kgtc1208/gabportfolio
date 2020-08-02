@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  font-family: 'Poppins', sans-serif;
+}
+
+.idol{
+  min-height: 130px;
+  width: 100vw;
+}
+
+svg {
+  pointer-events: none;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 100px;
+  max-width: 600px;
+  transform-origin: 0% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 10em;
+}
+
+.greetings{
+  color: rgb(79, 165, 143);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projects-container{
+  width: 100vw;
+  color: rgb(79, 165, 143);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.project{
+  max-width: 500px;
+  margin: 10px 20px;
+  text-align: center;
+  border: 5px  rgb(79, 165, 143) solid;
+  border-radius: 30px;
+  padding: 15px 15px;
+}
+
+.project-name{
+  font-size: 35px;
+  font-weight: bold;
+  color:  rgb(79, 165, 143);
+  -webkit-transition: color 0.3s;
+  -moz-transition:    color 0.3s;
+  -ms-transition:     color 0.3s;
+  -o-transition:      color 0.3s;
+  transition:         color 0.3s;
+}
+
+.project-name:hover {
+  color: gray;
+}
+
+.project span{
+  font-weight: lighter;
+}
+
+.greetings h1{
+  font-size: 50px;
+}
+
+#sweater > path:nth-child(1) {
+  fill: #7895e7;
+}
+#sweater > path:nth-child(2) {
+  fill: #5d86df;
+}
+#sweater > path:nth-child(3) {
+  fill: #7d8ef1;
+}
+
+#face > path:nth-child(1) {
+  fill: #ffe2b8;
+}
+#face > path:nth-child(2) {
+  fill: #ffc987;
+}
+.eye > path:nth-child(2) {
+  fill: #f0f0f0;
+}
+.eye > g:first-of-type > path:nth-child(1) {
+  fill: #159e97;
+}
+.eye > g:first-of-type > path:nth-child(2) {
+  fill: #0f9390;
+}
+.eye > g:last-of-type > path:nth-child(2) {
+  fill: #231f20;
+}
+#mouth > path:nth-child(1) {
+  fill: #f24976;
+}
+#mouth > path:nth-child(2) {
+  fill: #b7092b;
+}
+#mouth > path:nth-child(3) {
+  fill: #a00026;
+}
+#mouth > path:nth-child(4) {
+  fill: #ffffff;
+}
+#hair > path:nth-of-type(1) {
+  fill: rgb(133, 113, 57);
+}
+#hair > path:nth-of-type(2) {
+  fill: #7c5b31;
+}
+#hair > path:nth-of-type(3) {
+  fill: #836f4a;
+}
