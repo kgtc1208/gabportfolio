@@ -97,6 +97,10 @@ function App() {
       name="Hotel Rooms App"
       desc="An app that features rooms of a hotel resort. Also has a filter function according to the user's preference"
       tools="ReactJS, React Context API, React router"/>
+      <Projects lnk="https://github.com/kgtc1208/torrent_dl"
+      name="Torrent Downloader"
+      desc="Download torrents from archive.org by sending emails to your computer"
+      tools="Python"/>
     </div>
   </div>
   );
