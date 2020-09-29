@@ -89,6 +89,10 @@ function App() {
     </div>
 
     <div className="projects-container">
+      <Projects lnk="gabreacttodo.netlify.app"
+      name="To Do App"
+      desc="Keep track of things to be done"
+      tools="ReactJS"/>
       <Projects lnk="https://gabreactrecipes.netlify.app/"
       name="Recipe Search App"
       desc="An app that gives you recipes based on your query"
