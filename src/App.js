@@ -105,6 +105,10 @@ function App() {
       name="Torrent Downloader"
       desc="Download torrents from archive.org by sending emails to your computer"
       tools="Python"/>
+      <Projects lnk="https://gabphotoshare.netlify.app"
+      name="Social media"
+      desc="A simple photo sharing website"
+      tools="MERN"/>
     </div>
   </div>
   );
